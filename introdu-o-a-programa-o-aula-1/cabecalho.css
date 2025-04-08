@@ -1,0 +1,22 @@
+.corpo{
+    margin: 0;
+    font: arial;
+}
+.topo{
+    background-color: rgb(231, 228, 12);
+    padding: 12px;/*barra do cabeçalho*/
+    
+}
+.menu{
+    display: flex;
+    justify-content:left;/* justificarcetro direite ou esquerda*/
+}
+.menu a{
+    color: rgb(14, 20, 20);
+    padding: 10px  10px;
+    transition: background 0.3s;
+
+}
+.menu a:hover{
+    background-color: blueviolet;
+}

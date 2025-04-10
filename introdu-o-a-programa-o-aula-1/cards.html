@@ -16,9 +16,15 @@
         }
         .container{
             display: flex;
-            gap: 20px;
-           
-            
+            gap: 20px;  
+        }
+        .card2{
+            background-color: rgb(16, 204, 63);
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+            width: 300px;
+            transition: trasform 0.3s;
         }
         .card{
             background-color: rgb(58, 214, 214);
@@ -36,7 +42,13 @@
             width: 300px;
             transition: trasform 0.3s;
         }
+        .card2:hover{
+            transform:translate(-10px);
+        }
         .card:hover{
+            transform:translate(-10px);
+        }
+        .card1:hover{
             transform:translate(-10px);
         }
         .card-conteudo{
@@ -47,29 +59,26 @@
             padding: 15px;
             text-align: center;
         }
-        .card-conteudo1{
-            background-color: rgb(160, 11, 160);
-            border-radius: 12px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-            overflow: hidden;
-            width: 300px;
-            transition: trasform 0.3s;
+        .card-conteudo2{
+            padding: 15px;
+            text-align: center;
         }
         .card-conteudo1 h3{
             margin: 10px;
             color: rgba(8, 0, 0, 0.2);
         }
-        
         .card-conteudo h3{
             margin: 10px;
+            color: rgba(8, 0, 0, 0.2);   
+        }
+        .card-conteudo2 h3{
+            margin: 10px;
             color: rgba(8, 0, 0, 0.2);
-            
         }
         .card-conteudo p{
             color: #130707;
             font-size: 14px;
         }
-        
         .btn{
             display: inline-block;
             margin: 10px;
@@ -83,31 +92,63 @@
         .btn:hover{
             background-color: #5c4848;
         }
+        .card img{
+            width: 100%;
+            height: 200px;
+            object-fit:cover ;
+        }
+        .card:not(:hover){
+            opacity: 0.6;
+        }
+        .card1 img {
+            width: 100%;
+            height: 200px;
+            object-fit:cover ;
+
+        }
+        .card1:not(:hover){
+            opacity: 0.6;
+        }
+        .card2 img {
+            width: 100%;
+            height: 200px;
+            object-fit:cover ;
+
+        }
+        .card2:not(:hover){
+            opacity: 0.6;
+        }
     </style>
     
 </head>
 <body>
     <div class="container">
         <div class="card">
+            <img src="alphavile.jfif">
+
             <div class="card-conteudo">
-                <h2>Plano de Saúde</h2>
-                <p>O plano de saúde é um serviço que oferece cobertura médica e hospitalar.</p>
+                <h2>alphavile</h2>
+                <p>Buscando conforto</p>
                 <a href="#####" class="btn">Assinar</a>
             </div>
         </div>
     
         <div class="card1">
+            <img src="casa de praia.jfif"> 
             <div class="card-conteudo1">
-                <h2>Plano de Saúde</h2>
-                <p>O plano de saúde é um serviço que oferece cobertura médica e hospitalar.</p>
+            
+
+                <h2>Casa de praia</h2>
+                <p> O lazer esta Garantido .</p>
                 <a href="#####" class="btn">Assinar</a>
             </div>
         </div>
     
-        <div class="card">
+        <div class="card2">
+            <img src="casa de campo.jfif">
             <div class="card-conteudo">
-                <h2>Plano de Saúde</h2>
-                <p>O plano de saúde é um serviço que oferece cobertura médica e hospitalar.</p>
+                <h2>Casa de campo</h2>
+                <p>O Melhor lugar para se viver</p>
                 <a href="#####" class="btn">Assinar</a>
             </div>
         </div>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+    }
+    .container{
+        display: flex;
+        gap: 20px;
+    }
+    .card{
+        background-color: aquamarine;
+        border: 12px;
+        box-shadow: 0 4px 10px;
+        overflow: hidden;
+        width: 250px;
+        transition: transform 0,3s;
+    }
+    .card:hover{
+        transform: translate(-10px);
+    }
+    .card-content{
+        padding: 15px;
+    }.card-content{
+        padding: 15px;
+        text-align: center;
+    }
+    .card-content h3{
+        margin: 15px 0;
+        color: rgb(red, green, blue);
+    }
+    .card-content p{
+        color: brown;
+        font-size: 14px;
+    }
+    .btn{
+        display: inline-block;
+        margin: 10px;
+        padding: 10px 20px;
+        background-color: blue;
+        color: rgb(143,128,128);
+        text-decoration: none;
+        border-radius: 10px;
+        transition: backgraund;
+    }
+    .btn:hover{
+        background-color: blueviolet;
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="card-content">
+                <h3>plano basico</h3>
+                <p>ideal saude</p>
+                <a href="##" class="btn">Assinar</a>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

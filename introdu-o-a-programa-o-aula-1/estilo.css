@@ -1,0 +1,86 @@
+/*o '*'muda tudo*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Estilo do corpo*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(14, 202, 202);/*cor de fundo*/
+    color: rgb(248, 238, 238); /* cor da letra do corpo*/
+    background-image: url(caaro2.jfif);
+    background-size: cover;
+}
+/* cabeçalho e navegação*/
+header{
+    background-color: rgb(23, 24, 24); /* cor da barra do menu*/
+    padding: 12px 0;/*largura da barra do menu */
+}
+header nav ul{
+    list-style: none;
+    text-align: center;/*centralizar texto do cabeçalho */
+}
+header nav ul li{
+    display: inline-block;
+    margin: 0 20px;
+}
+header nav ul li a{
+    color: rgb(219, 197, 197);
+    text-decoration: none;
+    font-size: 18px;
+}
+header nav ul li a:hover{
+    color: rgb(198, 219, 10);
+}
+/*Estilização do inicio*/
+.ini-section{
+    text-align: center;
+    color: blueviolet;
+    height: 60vh;
+    display: flex;/* permite controlar o pocisionamneto e o espacamento*/
+    flex-direction: column;
+    justify-content: center;/*deixar no centro mais em baixo*/
+    align-items: center;
+    padding: 20px;
+}
+.ini-section h1{
+    font-size: 39px;/* tamanho da letra de bem vindo*/
+    margin-bottom: 20px;/*espacamento entre benvindo e carros */
+}
+.ini-section p{
+    font-family: 20px;
+    margin-bottom: 20px;/*espacamento entrecarros e conhecer nossa*/
+    max-width: 600px;
+}
+.cta-button{
+    background-color: rgb(21, 22, 21);/*cor do conhecar nossas ofertas*/
+    color: rgb(221, 207, 207);
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 7px; /*borda arredondada*/
+    font-weight: bold;
+    transition: background-color 0.5s;/* animação do botão mundado de cor*/
+}
+.cta-button:hover{
+    background-color: crimson;/*mundando a cor com o mouse*/
+}
+/* Aqui comeca a nossa sessão de sobre nós */
+.sobre-section{
+    background-color: rgb(17, 17, 17);
+    padding: 2px 10px; /*largura da faixa de sobre nós*/
+    text-align: center;/*centralizar o texto de sobre nós*/
+    
+}
+.sobre-section h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+
+}
+.sobre-section p{
+    font-family: 18px;
+    margin-bottom: 20px;
+    max-width: 800px;
+    margin: 0 auto 20px auto;
+    line-height: 1.5;
+}

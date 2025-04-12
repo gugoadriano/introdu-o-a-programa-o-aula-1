@@ -163,3 +163,9 @@ font-weight:18px ;
 .contato-form button:hover{
     background-color: #e68a3f;
 }
+.rodape{
+    background-color: black;
+    color: brown;
+    text-align: center;
+    padding: 10px;
+}

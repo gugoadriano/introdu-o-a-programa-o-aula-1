@@ -1,0 +1,19 @@
+#servico{
+    background-color: #98d2co;
+    text-align: center;
+    padding: 50px 20px;
+}
+.fundacao{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.corpo{
+    margin: 0;
+    font: arial;
+}
+.topo{
+    background-color: rgba(230, 11, 11, 0.815);
+    padding: 12px;/*barra do cabeçalho*/
+}
+    

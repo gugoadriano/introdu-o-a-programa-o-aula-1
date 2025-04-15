@@ -1,0 +1,70 @@
+.corpo{
+    margin: 0;
+    font: arial;
+    
+    
+}
+.topo{
+    background-color: rgba(230, 19, 29, 0.815);
+    padding: 12px;
+}
+.menu{
+    display: flex;
+    justify-content:left;
+}
+.menu a{
+    color: rgb(14, 20, 20);
+    padding: 10px  10px;
+    transition: background 0.3s;
+
+}
+.menu a:hover{
+    background-color: blueviolet;
+}
+.topo h1{
+    text-align: center;
+}
+.rodape{
+  position: fixed;
+  bottom: 0;    
+  left: 0;   
+  width: 100%; 
+  background: rgb(241, 3, 3);
+  color: rgb(30, 187, 82);
+  text-align: center;
+  padding: 10px 0;
+  }
+ #servicos{
+  background-color: #98d2co;
+  text-align: center;
+ padding: 50px 20px;
+ }
+  .cards{
+     display: flex;
+    justify-content: center;
+    gap: 20px;
+      }
+  .card{
+     background-color: #e91729;
+     color: rgb(240, 233, 233);
+     padding: 20px;
+     border-radius: 10px;
+     width: 250px;
+     box-shadow: 0 4px 8px black;
+     cursor: pointer;
+     transition: trasform 0,5s;
+     margin-top: 20px;
+    }
+ .card:hover{
+   transform: scale(1.05);
+   box-shadow: 0 20px 16px black;
+   background-color:#f38c79;
+}
+.imag{
+    display: flex;
+    justify-content: center;
+}
+body h1{
+    text-align: center;
+}
+
